@@ -13,6 +13,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.6;
+    background-color: #182628;
 }
 
 .lugar{
@@ -20,4 +21,59 @@ body{
     border-color: #ccc #999 #ccc #999;
     margin-bottom: 20px;
     padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.lugar a{
+    font-weight: bold;
+    color: #57ba98;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+h1 a:hover{
+    background-color:#f2f2f2 ;
+    color:#3b945e;
+}
+
+.lugar img{
+    width: 300px;
+    float: left;
+    margin: 5px 10px 0 0;
+    border: 1px solid #182628;
+    padding: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+.rodape{
+    font-size: 12px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.lateral{
+    background-color: #65ccb8;
+    border: 1px solid #3b945e;
+    padding: 10px;
+    width: 260px;
+    float: right;
+}
+
+.lugares{
+    width: 660px;
+    float: left;
+}
+.lateral h3{
+    font-size: 14px;
+    margin-top: 0;    
+}
+
+.lateral ul{
+    font-size: 12px;
 }
